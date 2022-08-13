@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Single Recipe</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" class="img" alt="Serve Food" />
+          </a>
+          <button class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links show-links">
+          <a href="index.html" class="nav-link">home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/recipes/food-4.jpg"
+            class="img recipe-hero-img"
+            alt="recipe image"
+          />
+          <article>
+            <h2>Banana pancakes</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae quo necessitatibus neque voluptatibus minima quam
+              numquam nostrum, quae, quasi fugit quia eius doloremque optio
+              aliquam? Recusandae, ratione! Tenetur, reprehenderit quasi? Lorem
+              ipsum, dolor sit amet consectetur adipisicing elit. Optio vitae
+              assumenda quos, repellat ipsam dolor est iste nihil consequatur
+              hic, quisquam aperiam esse numquam, nostrum necessitatibus ut
+              dignissimos odit eos!
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>30 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>servings</h5>
+                <p>6 servings</p>
+              </article>
+            </div>
+            <!-- recipe tags -->
+            <div class="recipe-tags">
+              Tags:<a href="tag-template.html">berek</a>
+              <a href="tag-template.html">Erenat</a>
+              <a href="tag-template.html">Kuear</a>
+              <a href="tag-template.html">mekese</a>
+            </div>
+          </article>
+        </section>
+        <!-- recipe content -->
+        <section class="recipe-content">
+          <article>
+            <h4>Instructions</h4>
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                This is the feeling what I feel while I was coding this page
+                beside that I was courages and sure about my success
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>
+                This is the feeling what I feel while I was coding this page
+                beside that I was courages and sure about my success
+              </p>
+            </div>
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>
+                This is the feeling what I feel while I was coding this page
+                beside that I was courages and sure about my success
+              </p>
+            </div>
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>Ingredients</h4>
+              <p class="single-ingredient">1 1/2 cup of milk and powder</p>
+              <p class="single-ingredient">1/2 cup of nut and water</p>
+              <p class="single-ingredient">1 salt and butter</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">baneihead</p>
+              <p class="single-tool">uksldjada'ada</p>
+              <p class="single-tool">maletenms dhdadtelwew</p>
+              <p class="single-tool">wabsdhieytowo owewp</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <!-- footer section -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipe</span>
+        Built By <a>Misge</a>
+      </p>
+    </footer>
+    <!-- end of footer section -->
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <!-- header -->
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" class="img" alt="Serve Food" />
+          </a>
+          <button class="btn nav-btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links show-links">
+          <a href="index.html" class="nav-link">home</a>
+          <a href="about.html" class="nav-link">about</a>
+          <a href="tags.html" class="nav-link">tags</a>
+          <a href="recipes.html" class="nav-link">recipes</a>
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn">contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- end of navbar -->
+
+    <main class="page">
+      <section class="contact-container">
+        <article class="contact-info">
+          <h3>I want to get in touch</h3>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus
+            provident ex vitae laboriosam error! Asperiores perspiciatis
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            totam explicabo non velit .
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium
+            totam explicabo non velit .
+          </p>
+        </article>
+        <article>
+          <form action="" class="form contact-form">
+            <div class="form-row">
+              <label for="name" class="form-label">your name</label>
+              <input type="text" id="name" class="form-input" name="name" />
+            </div>
+            <div class="form-row">
+              <label for="email" class="form-label">your email</label>
+              <input type="text" id="email" class="form-input" name="email" />
+            </div>
+            <div class="form-row">
+              <label for="message" class="form-label">message</label>
+              <textarea
+                id="message"
+                name="message"
+                class="form-textarea"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-block">submit</button>
+          </form>
+        </article>
+      </section>
+      <sectin class="featured-recipe">
+        <h5 class="featured-title">Look at this awesomesouce</h5>
+        <!-- recipes section -->
+
+        <div class="recipes-list">
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/food-1.jpg"
+              class="img recipe-img"
+              alt="food"
+            />
+            <h5>fhsldds hfasd</h5>
+            <p>prep: 15min |Cook: 5min</p>
+          </a>
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/food-2.jpg"
+              class="img recipe-img"
+              alt="food"
+            />
+            <h5>wiwti mnash</h5>
+            <p>prep: 15min |Cook: 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/food-3.jpg"
+              class="img recipe-img"
+              alt="food"
+            />
+            <h5>adna nczww</h5>
+            <p>prep: 15min |Cook: 5min</p>
+          </a>
+
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/food-4.jpg"
+              class="img recipe-img"
+              alt="food"
+            />
+            <h5>tewagfjf</h5>
+            <p>prep: 15min |Cook: 5min</p>
+          </a>
+        </div>
+      </sectin>
+    </main>
+    <!-- footer section -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">SimplyRecipe</span>
+        Built By <a>Misge</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
